@@ -1,0 +1,49 @@
+@import "../../style.scss";
+
+.update {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  background-color: #fff;
+  padding: 20px;
+  width: 500px;
+  max-height: 80%; // Adjust as necessary
+  overflow-y: auto; // Enable scrolling
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper h1 {
+  margin-bottom: 20px;
+}
+
+.files {
+  margin-bottom: 20px;
+}
+
+.imgContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.imgContainer img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.close {
+  margin-top: 20px;
+}
